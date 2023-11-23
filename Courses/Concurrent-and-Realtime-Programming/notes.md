@@ -2,9 +2,18 @@
 ## Lab src
 - https://gitlab.dei.unipd.it/andrearigoni/crtp.git
 
+## Lecture 1
+- Intro
+
+
+## Lecture 2
+- TLB (Translation Lookaside Buffer) review
 
 ## Lecture 3
 ## Lab 1
+- Spectre
+
+
 ## Lab 2
 - auto keyword in C
  
