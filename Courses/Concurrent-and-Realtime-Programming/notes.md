@@ -47,11 +47,15 @@
 - https://man7.org/linux/man-pages/man2/shmget.2.html
 
 ## Lab 7
-
 - Why not UDP/IP?
 - Raw Socket
 - Why casting sockaddr_in to sockaddr_in? (https://stackoverflow.com/questions/21099041/why-do-we-cast-sockaddr-in-to-sockaddr-when-calling-bind)
 
+## Lab 8
+- Out-of-band data ??
+- MSG_CONFIRM flag ??
+- Socket Options (SO_REUSEADDR, SO_KEEPALIVE, ...) ??
+- Mask in IP address
 
 
 ## Lecture 7
