@@ -60,3 +60,7 @@
 
 ## Lecture 7
 
+- Critical instant theorem
+- Note ri,j is the release time, but not necessarily same with the beginning time of execution
+- Rate-monotonic scheduling algorithm (Proof of Optimality)
+
