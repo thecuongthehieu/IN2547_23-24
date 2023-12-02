@@ -64,3 +64,12 @@
 - Note ri,j is the release time, but not necessarily same with the beginning time of execution
 - Rate-monotonic scheduling algorithm (Proof of Optimality)
 
+## Lab 9
+
+- $@ in Makefile
+- Deadlock src
+- pthead\_lock and pthread\_cond
+- Issue: wait() inside Critical Section
+
+
+
