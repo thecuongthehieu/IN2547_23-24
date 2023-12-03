@@ -1,5 +1,5 @@
 #!/bin/sh
 
 git add .
-git commit -m "update"
+git commit -m "Update"
 git push origin master
