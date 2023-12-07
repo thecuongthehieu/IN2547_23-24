@@ -71,5 +71,7 @@
 - pthead\_lock and pthread\_cond
 - Issue: wait() inside Critical Section
 
-
-
+## Lecture 8
+- Processor Utilization
+- Response Time Analysis (The smallest solution is the actual worst-case)
+- In RM, we are assuming that all the initial task jobs are released simultaneously at time 0 (Critical Instant)
