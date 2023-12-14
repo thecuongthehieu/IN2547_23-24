@@ -75,3 +75,11 @@
 - Processor Utilization
 - Response Time Analysis (The smallest solution is the actual worst-case)
 - In RM, we are assuming that all the initial task jobs are released simultaneously at time 0 (Critical Instant)
+
+## Lecture 9
+- Sporadic task
+- Minimum interarrival time
+- Deadline Monotonic Priority Order
+- How does Scheduler know the characteristics of tasks?
+- " If critical regions cannot be nested " ?
+- Priority Inheritance and Priority Ceiling Protocol
