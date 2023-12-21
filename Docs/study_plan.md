@@ -7,7 +7,7 @@
 | OPERATIONS RESEARCH 1                  | 9*  |
 | MACHINE LEARNING                       | 6*  |
 | CONCURRENT AND REAL TIME PROGRAMMING   | 6   |
-|TOTAL                                   | 30  |
+| TOTAL                                  | 30  |
 
 ### 2nd 
 | Courses    | Credits |
