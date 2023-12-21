@@ -7,6 +7,7 @@
 | OPERATIONS RESEARCH 1                  | 9*  |
 | MACHINE LEARNING                       | 6*  |
 | CONCURRENT AND REAL TIME PROGRAMMING   | 6   |
+|TOTAL                                   | 30  |
 
 ### 2nd 
 | Courses    | Credits |
@@ -16,15 +17,16 @@
 | WEB APPLICATION                               | 6*  |
 | SOFTWARE PLATTFORMS                           | 6   |
 | COMPUTERS AND NETWORKS SECURITY               | 6   |
-| COMPUTER ENGINEERING FOR MUSIC AND MULTIMEDIA | 6*  |
-| BIG DATA COMPUTING                            | 6   | 
+| TOTAL                                         | 36  |
+
 
 ### 3rd 
 | Courses    | Credits |
 |:---------- |:-------:|
 | GRAPH DATABASES                        | 9*  |
-| DISTRIBUTED SYSTEMS                    | 9   | 
-
+| DISTRIBUTED SYSTEMS                    | 9   |
+| CRYPTOGRAPHY                           | 6   |
+| TOTAL                                  | 24  |
 
 
 ### 4th 
@@ -33,6 +35,8 @@
 | ITALIAN LANGUAGE                       | 3   |
 | PRACTICAL TRAINING                     | 9   | 
 | FINAL THESYS                           | 21  |
+| TOTAL.                                 | 33  |
+
 
 
 

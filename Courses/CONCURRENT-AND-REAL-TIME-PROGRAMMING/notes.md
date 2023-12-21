@@ -83,3 +83,18 @@
 - How does Scheduler know the characteristics of tasks?
 - " If critical regions cannot be nested " ?
 - Priority Inheritance and Priority Ceiling Protocol
+
+## Lab 10
+- OpenMP
+
+## Lecture 10
+- What Realtime system means?
+- VxWorks Realtime OS
+- PREEMPT RT Linux patch 
+- Spinlock
+
+
+## Final Project notes
+- https://stackoverflow.com/questions/15164484/when-to-call-sem-unlink
+- https://medium.com/helderco/semaphores-in-mac-os-x-fd7a7418e13b
+- 

@@ -4,4 +4,8 @@
 - Related to NFLT: https://cstheory.stackexchange.com/questions/48603/no-free-lunch-theorem-and-finite-hypothesis-classes
 - Hard and Soft Dual SVM: https://medium.com/@sathvikchiramana/svm-dual-formulation-7535caa84f17
 - SVM: https://machinelearningcoban.com/2017/04/09/smv/
-- 
+- Bell number: https://en.wikipedia.org/wiki/Bell_number
+- Stirling number: https://en.wikipedia.org/wiki/Stirling_numbers_of_the_second_kind
+- https://discrete.openmathbooks.org/more/mdm/sec_adv-stirling.html
+
+
