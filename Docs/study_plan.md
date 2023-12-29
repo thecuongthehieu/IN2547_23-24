@@ -16,8 +16,14 @@
 | SEARCH ENGINE                                 | 9*  | 
 | WEB APPLICATION                               | 6*  |
 | SOFTWARE PLATTFORMS                           | 6   |
+| TOTAL                                         | 30  |
+
+
+| Courses    | Credits |
+|:---------- |:-------:|
 | COMPUTERS AND NETWORKS SECURITY               | 6   |
-| TOTAL                                         | 36  |
+| BIG DATA COMPUTING 			                  | 6   |
+
 
 
 ### 3rd 
@@ -25,8 +31,15 @@
 |:---------- |:-------:|
 | GRAPH DATABASES                        | 9*  |
 | DISTRIBUTED SYSTEMS                    | 9   |
+| TOTAL                                  | 18  |
+
+| Courses    | Credits |
+|:---------- |:-------:|
+| QUALITY ENGINEERING.                   | 6   |
+| INFERENTIAL STATISTICS                 | 6   |
+| GAME THEORY                            | 6   |
 | CRYPTOGRAPHY                           | 6   |
-| TOTAL                                  | 24  |
+
 
 
 ### 4th 

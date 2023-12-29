@@ -93,6 +93,15 @@
 - PREEMPT RT Linux patch 
 - Spinlock
 
+## Lab 11
+- Linux to Linux-Realtime
+- Mesured Delayed and Jitter
+- \<sched.h\>
+- What happens with concurrency inside kernels?
+- NICE VS PRIORITY ( PR )
+- Avoid memory swap (vmstat, panic_on_oom)
+- Consider sched for final project
+
 
 ## Final Project notes
 - https://stackoverflow.com/questions/15164484/when-to-call-sem-unlink
