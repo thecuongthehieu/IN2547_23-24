@@ -102,6 +102,18 @@
 - Avoid memory swap (vmstat, panic_on_oom)
 - Consider sched for final project
 
+## Lab 12
+- Thread CPU affinity
+- Task activation pattern 
+- Early Deadline First
+- The deadline scheduler is optimal for periodic and sporadic tasks with deadlines less than or equal to
+their periods on uniprocessor systems.
+- The SCHED_DEADLINE in chrt
+- chrt command in linux
+- Rate Monotonic threshold of CPU utilization
+- Can't run multiple scheduling policies in one core (the Kernel will apply CPU affinity!) What happen when run processes with chrt cmd
+- echo $$ > cgroup.procs
+
 
 ## Final Project notes
 - https://stackoverflow.com/questions/15164484/when-to-call-sem-unlink
