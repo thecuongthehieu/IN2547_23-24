@@ -25,21 +25,12 @@
 | BIG DATA COMPUTING 			                  | 6   |
 
 
-
 ### 3rd 
 | Courses    | Credits |
 |:---------- |:-------:|
 | GRAPH DATABASES                        | 9*  |
 | DISTRIBUTED SYSTEMS                    | 9   |
 | TOTAL                                  | 18  |
-
-| Courses    | Credits |
-|:---------- |:-------:|
-| QUALITY ENGINEERING.                   | 6   |
-| INFERENTIAL STATISTICS                 | 6   |
-| GAME THEORY                            | 6   |
-| CRYPTOGRAPHY                           | 6   |
-
 
 
 ### 4th 
@@ -48,7 +39,7 @@
 | ITALIAN LANGUAGE                       | 3   |
 | PRACTICAL TRAINING                     | 9   | 
 | FINAL THESYS                           | 21  |
-| TOTAL.                                 | 33  |
+| TOTAL                                  | 33  |
 
 
 
