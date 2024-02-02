@@ -118,4 +118,9 @@ their periods on uniprocessor systems.
 ## Final Project notes
 - https://stackoverflow.com/questions/15164484/when-to-call-sem-unlink
 - https://medium.com/helderco/semaphores-in-mac-os-x-fd7a7418e13b
-- 
+- https://stackoverflow.com/questions/8063613/c-macs-os-x-semaphore-h-trouble-with-sem-open-and-sem-wait
+	- Try putting sem\_unlink(""); before sem\_open(),
+- https://pubs.opengroup.org/onlinepubs/009696699/functions/sem_open.html 
+	- If O\_EXCL is set and O\_CREAT is not set, the effect is undefined
+- https://stackoverflow.com/questions/71765047/why-we-unlink-semaphores-before-we-initializes-them 
+	- Because named semaphores such as are created by sem_open() have kernel persistence.
