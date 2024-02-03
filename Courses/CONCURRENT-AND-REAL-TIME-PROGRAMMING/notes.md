@@ -124,3 +124,7 @@ their periods on uniprocessor systems.
 	- If O\_EXCL is set and O\_CREAT is not set, the effect is undefined
 - https://stackoverflow.com/questions/71765047/why-we-unlink-semaphores-before-we-initializes-them 
 	- Because named semaphores such as are created by sem_open() have kernel persistence.
+- Rate Limiter
+	- https://github.com/google/guava/blob/master/guava/src/com/google/common/util/concurrent/RateLimiter.java
+	- https://www.alibabacloud.com/blog/detailed-explanation-of-guava-ratelimiters-throttling-mechanism_594820
+	- https://www.quora.com/What-is-the-difference-between-token-bucket-and-leaky-bucket-algorithms
