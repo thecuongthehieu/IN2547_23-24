@@ -129,3 +129,5 @@ their periods on uniprocessor systems.
 	- https://github.com/google/guava/blob/master/guava/src/com/google/common/util/concurrent/RateLimiter.java
 	- https://www.alibabacloud.com/blog/detailed-explanation-of-guava-ratelimiters-throttling-mechanism_594820
 	- https://www.quora.com/What-is-the-difference-between-token-bucket-and-leaky-bucket-algorithms
+- https://lists.freebsd.org/pipermail/freebsd-performance/2005-February/001143.html
+	- unix domain sockets vs internet sockets 
