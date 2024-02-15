@@ -131,3 +131,7 @@ their periods on uniprocessor systems.
 	- https://www.quora.com/What-is-the-difference-between-token-bucket-and-leaky-bucket-algorithms
 - https://lists.freebsd.org/pipermail/freebsd-performance/2005-February/001143.html
 	- unix domain sockets vs internet sockets 
+- Makefile
+	- https://stackoverflow.com/questions/3220277/what-do-the-makefile-symbols-and-mean
+- Function Pointer
+	- https://www.ibm.com/docs/en/zos/2.2.0?topic=functions-pointers 
