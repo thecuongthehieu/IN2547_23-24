@@ -2,6 +2,9 @@
 ## Lab src
 - https://gitlab.dei.unipd.it/andrearigoni/crtp.git
 
+## Final Project
+- https://github.com/thecuongthehieu/producer-consumer-orchestrator
+
 ## Lecture 1
 - Intro
 
@@ -92,6 +95,11 @@
 - VxWorks Realtime OS
 - PREEMPT RT Linux patch 
 - Spinlock
+	- https://stackoverflow.com/questions/43043260/interrupt-on-a-processor-while-another-process-is-spinning-for-lock#:~:text=6-,So%20what%20will%20happen%20if%20an%20interrupt%20happens%20on%20the,will%20go%20back%20to%20spinning.
+	- Because they avoid overhead from operating system process rescheduling or context switching, spinlocks are efficient if threads are likely to be blocked for only short periods. For this reason, operating-system kernels often use spinlocks. (https://en.wikipedia.org/wiki/Spinlock) 
+	- Semaphores have the advantage over spinlocks of allowing another task gain processor usage while waiting for the resource, but cannot be used for synchronization with ISRs (the ISR does not run in the context of any task). Moreover, when the critical section is very short, it may be preferable to use spinlocks because they are simpler and introduce less overhead.
+- Scheduler() in textbook page 405:
+	- The kernel code provides routine schedule() that can be invoked in a system routine or in response to an interrupt. In the former case, the run- ning task voluntarily yields the processor, for example, when issuing an I/O operation or waiting on a semaphore. In these cases, the kernel code running in the task’s context will call schedule() after starting the I/O operation or when detecting that the semaphore count is already zero.
 
 ## Lab 11
 - Linux to Linux-Realtime
@@ -128,6 +136,7 @@ their periods on uniprocessor systems.
 	- https://github.com/mfycheng/ratelimiter/tree/master 
 	- https://github.com/google/guava/blob/master/guava/src/com/google/common/util/concurrent/RateLimiter.java
 	- https://www.alibabacloud.com/blog/detailed-explanation-of-guava-ratelimiters-throttling-mechanism_594820
+	*(The token bucket limits the average inflow rate and allows sudden increase in traffic. The request can be processed as long as it has a token. Three or four tokens can be given at one time. The leaky bucket limits the constant outflow rate, which is set to a fixed value. )*
 	- https://www.quora.com/What-is-the-difference-between-token-bucket-and-leaky-bucket-algorithms
 - https://lists.freebsd.org/pipermail/freebsd-performance/2005-February/001143.html
 	- unix domain sockets vs internet sockets 
@@ -135,3 +144,18 @@ their periods on uniprocessor systems.
 	- https://stackoverflow.com/questions/3220277/what-do-the-makefile-symbols-and-mean
 - Function Pointer
 	- https://www.ibm.com/docs/en/zos/2.2.0?topic=functions-pointers 
+- https://www.baeldung.com/java-synchronized 
+	- When we use a synchronized block, Java internally uses a monitor, also known as a monitor lock or intrinsic lock, to provide synchronization
+- Process Synchronization
+	- Process Synchronisation ensures the orderly and conflict-free execution of concurrent processes
+	- Another purpose of synchronization, presented in Chapter 4, is to regulate process access to shared resources.
+- Spinlock vs Mutex
+	- https://stackoverflow.com/questions/5869825/when-should-one-use-a-spinlock-instead-of-mutex
+
+- Question\-Answer:
+	- Timesharing is an effective policy for interactive systems but cannot be considered in real-time applications because it is not possible to predict in advance the maximum response time for a given task
+	- Earliest Deadline First, which not only ensures real-time behavior in a system of periodic tasks, but represents the “best” scheduling policy ever attainable for a given set of periodic tasks under certain conditions:
+		- Tasks are scheduled preemptively
+		- There is only one processor
+- The PCI protocol, in fact, poses a limit in the number of connected devices and, therefore, in order to handle a larger number of devices, it is necessary to use PCI to PCI bridges
+- Bridge setting, as well as other very low-level configurations are normally performed before the operating system starts, and are carried out by the Basic Input/Output System (BIOS), a code which is normally stored on ROM and executed as soon as the computer is powered
