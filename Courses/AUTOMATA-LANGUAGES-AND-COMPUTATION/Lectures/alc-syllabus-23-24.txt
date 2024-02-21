@@ -1,0 +1,64 @@
+
+AUTOMATA, LANGUAGES AND COMPUTATION
+ACADEMIC YEAR 2023-2024: CLASS PROGRAM
+
+The course textbook is: Introduction to Automata Theory, Languages and Computation (3rd Edition), by John E. Hopcroft, Rajeev Motwani and Jeffrey D. Ullman, Pearson New International Edition, 2007. We also recommend the use of the exercise collection available on the course website. 
+
+Chapter 1: Automata: The Methods and the Madness.
+Recognition models and generative models (lecture slides). Introduction to proof techniques: deductive proofs and the if-then form, proof by counterexample, proof of equality of two sets (lecture slides). Notions of alphabet and string. The concatenation operation and the empty string. Extensional and intensional definition of language. The use of set-former. Definition of decision problem and associated language. 
+
+Skip: Sections 1.1, 1.2, 1.3, 1.4.
+
+
+Chapter 2: Finite Automata. 
+Deterministic fine automata (DFA), graphical representation. Extended transition function for DFA. Language accepted by a DFA. Nondeterministic finite automata (NFA). Extended transition function for NFA. Language accepted by a NFA. Subset construction for the transformation of NFA into equivalent DFA. Lazy evaluation. Equivalence between NFA and DFA. Exponential growth of the number of states in the subset construction. Partial DFA. NFA with epsilon-transitions (eps-NFA). The notion of epsilon-closure and the function ECLOSE(). Extended transition function for eps-NFA. Language accepted by an eps-NFA. Construction of an equivalent DFA from an eps-NFA (without proof of correctness). 
+
+Skip: Sections 2.1 and 2.4; Proof of Theorem 2.22. 
+
+
+Chapter 3: Regular Expressions and Languages.
+Set operations on languages. Regular expression operators. Inductive definition of regular expression and of the generated language. Operator's precedence. Conversion of a DFA into a regular expression: construction by state elimination. Conversion of a regular expression into an eps-NFA. Algebraic laws for regular expressions: commutativity and associativity, identity and annihilators, distributivity and idempotency. Kleene closure and its properties. 
+
+Skip: Sections 3.2.1, 3.3, 3.4.6, 3.4.7.
+
+
+Chapter 4: Properties of regular languages.
+Pumping lemma for regular languages and applications. Closure properties for regular languages and associated proofs: union, concatenation, Kleene star, complementation, intersection (including construction of the intersection automaton), set difference, string reverse, homomorphism. Computational complexity of the studied conversions (main results only, skip proofs). Decision problems for regular languages (algorithms only, skip proofs): test for emptiness; membership test; definition of equivalent states and state equivalence algorithm; equivalence test for regular languages. DFA minimization (algorithm only, skip proof).
+
+Skip: Sections 4.2.4, 4.4.4; all proofs from Section 4.3.1; Theorem 4.20; time complexity of the state equivalence algorithm; Theorems 4.23 and 4.24; Section 4.4.4.
+
+
+Chapter 5: Context-free grammars and languages.
+Basic idea. Definition of context-free grammar (CFG). Basic notions: rewrite relation, derivation, leftmost and rightmost derivation, generated language. Notion of sentential form. Properties of derivations: derivation composition and derivation factorisation. Parse tree and its yield. Equivalence between derivations, leftmost/rightmost derivations, and parse trees (skip the proofs). Grammar ambiguity. One-to-many correspondence between derivations and parse trees. One-to-one correspondence between leftmost derivations and parse trees. Inherent ambiguity. Transformation from FA to CFG and transformation from regular expression to CFG (lecture slides).
+
+Skip: Theorem 5.7; notion of recursive inference and Example 5.4; proofs of Theorems 5.12, 5.14, 5.18; Sections 5.3 and 5.4.2; proof of Theorem 5.29.
+
+
+Chapter 6: Push-down automata.
+Basic idea. Definition of push-down automaton (PDA). Graphical representation for the transition function of a PDA. Definitions of instantaneous description and of computation for a PDA. Properties of the computations of a PDA: removal or addition of string/stack portions that are never used in the computation. Acceptance by final state and acceptance by empty stack. Equivalence between PDA with acceptance by final state and PDA with acceptance by empty stack. Transformation from CFG to PDA: main idea and construction, skip proof. Transformation from PDA to CFG: statement only, skip proof. 
+
+Skip: proof of Theorem 6.5; Examples 6.7, 6.8 and 6.10; proof of Theorem 6.13 and proof of Theorem 6.14; Section 6.4.
+
+
+Chapter 7: Properties of context-free languages.
+Definition of generating symbols and reachable symbols and algorithms for their recognition. Definition of useless symbols and algorithm for their elimination in a CFG. Definition of nullable symbols and algorithm for their recognition. Algorithm for the elimination of epsilon-productions in a CFG. Notion of unit pair in a CFG and algorithm for their recognition. Algorithm for the elimination of unit productions in a CFG. Simplification of a CFG. Definition of Chomsky normal form (CNF) and algorithm for casting a CFG in CNF. Pumping lemma for CFL and its application. Properties of context-free languages derived from the pumping lemma. Closure properties of context-free languages: substitution, union, concatenation, Kleene closure and positive closure (operator +), homomorphism. Other closure properties for context-free languages: reverse operator, intersection with regular languages and construction of the corresponding PDA, set difference with regular languages. Context-free languages are not closed with respect to intersection, complement and set difference. Computational complexity of conversions, including CNF conversion. Test for emptiness for CFL (informal description). Algorithm for the membership problem for CFL (CYK algorithm). Preview of undecidable problems for CFL. 
+
+Skip: proofs of all theorems for CFG simplification and for CNF construction: Theorems 7.2, 7.4, 7.6, 7.7, 7.9, 7.11, 7.13, 7.14 and 7.16; Exercise 7.28; Section 7.3.5; proofs of Theorems 7.31 and 7.32; O(n) time algorithm in Section 7.4.3.
+
+
+Chapter 8: Turing Machines: Introduction.
+Definition of Turing Machine (TM) and transition diagram. Notions of instantaneous description, computation step and computation for a TM. TM with output. Language accepted by a TM upon final state and the class of recursively enumerable languages (RE). The halting problem for TM. The class of recursive languages (REC). Programming techniques for TM: finite random access memory embedded in states; multiple tracks; subroutine call and return address. Extensions of TM: multi-tape TM and equivalence with TM, computation time; non-deterministic TM and equivalence with TM, computation time. Restrictions of TM: semi-infinite tape without blank writing and equivalence with TM (sketch of proof as in slides); multi-stack machines and equivalence with TM (sketch of proof as in slides). Equivalence of TM and modern computer (statement only, no proof). 
+
+Skip: Sections 8.1, 8.5.3, 8.5.4, 8.6; proof of Theorem 8.12 only in the simplified form presented in the slides (no detailed specification of the transition function).
+
+
+Chapter 9: Undecidability.
+Indexing for binary strings and indexing for TMs. Recursive languages (REC) and recursively enumerable languages (RE). Definition of the diagonalization language. The diagonalization language is not in RE. Definition of the universal language. The universal language is in RE. The universal language is not in REC. Definition of reduction. The language of all TM encodings that accept a non-empty language is in RE but not in REC. The language of all TM encodings that accept the empty language is not in RE. Rice's theorem and its applications. Definition of the Post correspondence problem (PCP). PCP is not in REC (no proof). Definition of the ambiguity problem for a CFG (LAMB). The ambiguity problem for a CFG is not in REC.
+
+Skip: Proofs of Theorems 9.17 and 9.19; Section 9.5.3. 
+
+
+Chapter 10: Intractable problems. 
+Computational complexity of a TM. Definition of the class deterministic polynomial time (P) and the class non-deterministic polynomial time (NP). Polynomial time reductions. NP-complete problems and NP-hard problems. Boolean expressions and their encoding. Satisfiability of Boolean expressions and the SAT problem. Cook theorem: SAT is NP-complete (first part of the proof only: SAT is in NP). Normal forms for Boolean expressions. CSAT and 3SAT are NP-complete (statement only, no proof). Definitions of independent sets and of the IS problem. IS is NP-complete. Definitions of node cover and of the NC problem. NC is NP-complete (statement only, no proof). Definitions of directed Hamiltonian circuit and of the DHC problem. DHC is NP-complete (statement only, no proof). Other NP-complete problems. 
+
+Skip: Second part of the proof of Theorem 10.9; Sections 10.3.2, 10.3.3, and 10.3.4; proofs of Theorems 10.21, 10.23, and 10.24.
