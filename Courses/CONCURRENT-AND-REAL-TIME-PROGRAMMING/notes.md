@@ -41,7 +41,7 @@
 ## Lecture 6
 
 ## Lab 6
-- int[10000000] vs new int[10000000 (Because of stack size: ulimit -s)
+- int\[10000000\] vs new int\[10000000\] (Because of stack size: ulimit -s)
 - man ps in mac vs linux (It is different https://askubuntu.com/questions/11392/what-are-the-key-differences-between-mac-os-and-linux-that-prevent-application-c)
 - undertand fork(), shmat(), Virtual and Physical Memory when fork(), msgget()
 - (msgget, shmat)
