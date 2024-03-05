@@ -2,4 +2,11 @@
 
 - Introduction
 
-## Lecture 02 ()
+## Lecture 02 (01/03/2024)
+- RDF OWL SPARQL (related to Graph DB)
+- Deep web vs Dark web
+- DataType: Encode/Representtion, Operations and Domain
+- TOR and I2P
+- JOIN query is the signature of Relational Database (Time Complexity: $$ O(n^2) $$ )
+
+## Lecture 03 ()
