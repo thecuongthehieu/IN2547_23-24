@@ -15,4 +15,12 @@
 - Why is it called Inverted Index
 	- The forward index stores a list of words for each document (docid to content)
 	- https://en.wikipedia.org/wiki/Search_engine_indexing#The_forward_index
-- 
+
+## Lecture 05 (06/03/2024)
+- A/B testing drawback: Real users would experience the testing
+- Multilangual corpus
+
+## Lecture 06 (08/03/2024)
+- **ABSENT (SICK)**
+
+## Lecture 07 ()

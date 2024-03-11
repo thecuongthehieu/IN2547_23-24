@@ -9,4 +9,9 @@
 - TOR and I2P
 - JOIN query is the signature of Relational Database (Time Complexity: $$ O(n^2) $$ )
 
-## Lecture 03 ()
+## Lecture 03 (07/03/2024)
+- **ABSENT (UNOX HACKATHON)**
+
+## Lecture 04 (08/03/2024)
+- **ABSENT (SICK)**
+- 

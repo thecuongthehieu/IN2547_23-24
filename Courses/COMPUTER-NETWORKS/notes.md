@@ -19,3 +19,19 @@
 	- Padding address could be accessed legally
 -  Both Apple silicon and Intel-based Mac computers use the little-endian
 	- https://developer.apple.com/documentation/apple-silicon/porting-your-macos-apps-to-apple-silicon  
+
+## Lecture 04 (05/03/2024)
+- The bitwise NOT operator in C++ is the tilde character `~`.
+- Exercises
+
+## Lecture 05 (06/03/2024)
+- Time Division Multiplexing vs Packet Switching
+- Statistical multiplexing
+- Lookup table in Switching
+- Routing activity
+- Data Plane, Control Plane, Management Plane
+
+## Lecture 06 (07/03/2024)
+- Internetworking
+- How the Internet knows my computer?
+	- https://superuser.com/questions/105838/how-does-router-know-where-to-forward-packet

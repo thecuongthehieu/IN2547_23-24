@@ -10,4 +10,8 @@
 - Scale cube
 - 3 Process Paradigms
 - Agile Software Development
-- 
+
+## Lecture 04 (08/03/2024)
+- **ABSENT (SICK)**
+
+## Lecture 05 ()
