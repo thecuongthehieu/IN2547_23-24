@@ -9,4 +9,6 @@
 	- sub-modul: https://stackoverflow.com/questions/4588956/what-does-mvn-pl-do
 	- https://maven.apache.org/plugins/maven-assembly-plugin/usage.html
 
-- 
+- Web Development
+	- https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web
+	- https://javascript.info/

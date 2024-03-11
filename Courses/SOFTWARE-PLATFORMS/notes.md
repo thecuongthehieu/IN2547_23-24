@@ -14,4 +14,11 @@
 ## Lecture 04 (08/03/2024)
 - **ABSENT (SICK)**
 
-## Lecture 05 ()
+## Lecture 05 (11/03/2024)
+- tdd homework
+- Adapter Pattern
+- Object Oriented Design (OOD)
+- Responsibility Driven Design (RDD) is a general concept (metaphor) for thinking about OO software design
+- GRASP describes some basic disciplines to assign responsibilities (to know and support RDD)
+- GRASP for basic patterns, and GoF for more advanced design ideas
+- Architectural Patterns

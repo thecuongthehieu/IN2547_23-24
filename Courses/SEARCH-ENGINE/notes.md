@@ -23,4 +23,8 @@
 ## Lecture 06 (08/03/2024)
 - **ABSENT (SICK)**
 
-## Lecture 07 ()
+## Lecture 07 (11/03/2024)
+- Apache Lucene
+- hello-ir codes
+
+## Lecture 08 ()
