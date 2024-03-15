@@ -35,3 +35,31 @@
 - Internetworking
 - How the Internet knows my computer?
 	- https://superuser.com/questions/105838/how-does-router-know-where-to-forward-packet
+
+## Lecture 07 (12/03/2024)
+- Before, Internet is upper of L2 and L3 networks but nowadays, there is no L3 network (Internet replaces L3 networks and becomes the L3)
+- 32-bit Network Mask
+- Class A, B, C addresses are not suitable for new situation, resulting in the invention of Net Mask for more flexibility
+- Broadcast (host part set to 1s) and NoHost addresses (host part set to 0s)
+- Subnetting and Classless Inter-Domain Routing (CIDR) are used for opposite purposes (the Former for extending Host Part and the Latter is for aggregating Host Part)
+- Private Address Ranges (commonly used in internal, LANs) different from Puclic Address
+
+## Lecture 08 (13/03/2024)
+- Middlebox vs Router
+- Network Address Translator is one of the Middlebox
+- Pure NAT solution is a not good one
+- `netstat -t` command
+	- https://tldp.org/LDP/nag2/x-087-2-iface.netstat.html
+- Network Address and Port Translation (NAPT) vs (Pure) NAT
+	- https://support.huawei.com/enterprise/en/doc/EDOC1100086645
+
+## Lecture 09 (14/03/2024)
+- Exercises 2.7 correction
+- Floating Point Register and General Register
+- MTU and Fragmentation
+- IP Package -> Fragments
+- ID in each package
+
+
+## Questions
+- How socket handle the case that one process connecting to one host:port threaded-server with 2 socket descriptors?

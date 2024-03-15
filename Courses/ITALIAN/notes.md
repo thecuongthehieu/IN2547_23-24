@@ -1,1 +1,5 @@
-https://elearning.unipd.it/cla/course/view.php?id=2978#section-0
+- https://elearning.unipd.it/cla/course/view.php?id=2978#section-0
+- https://italiano-bello.com/en/italian-courses/
+- https://svmilanovn.wordpress.com/2017/12/07/tai-mien-phi-sach-hoc-tieng-y/
+- Colloquial Italian: The Complete Course for Beginners
+	- https://routledgetextbooks.com/textbooks/colloquial/language/italian.php

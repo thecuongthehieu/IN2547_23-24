@@ -14,4 +14,17 @@
 
 ## Lecture 04 (08/03/2024)
 - **ABSENT (SICK)**
-- 
+
+## Lecture 05 (14/03/2024)
+- CGI
+- Java EE -> Jakarta EE
+- UML Class Diagram
+- Web container: implements the API defined by Java EE and allows for executing applications
+- Web component: is a part of a Web application (servlet, JSP, …) hosted and executed by the Web container
+- Servlets are not thread-safe -> be careful about the instance's variables
+- Install Tomcat 11 (container)
+- hello-html code
+- Tomcat Container Install:
+	- https://charith.xyz/docker/accessing-tomcat-manager-of-an-app-deployed-on-docker/
+	
+## 

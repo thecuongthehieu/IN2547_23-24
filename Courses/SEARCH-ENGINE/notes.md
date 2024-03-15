@@ -27,4 +27,16 @@
 - Apache Lucene
 - hello-ir codes
 
-## Lecture 08 ()
+## Lecture 08 (13/03/2024)
+- hello-tipster codes
+- TREC topics
+- Hashtable is thread-safe, HashMap is not thread-safe
+- Pattern, Reflection usages in `hello-tipster/src/main/java/it/unipd/dei/se/parse/DocumentParser.java`
+- Iterator vs Iterable
+	- https://www.baeldung.com/java-iterator-vs-iterable
+- Close recourses patterns in `public final it.unipd.dei.se.parse.ParsedDocument next()`, which is similar to try-with-resources
+	- https://docs.oracle.com/javase/specs/jls/se8/html/jls-14.html#jls-14.20.3
+- RuntimeException extends Exception, but it is unchecked
+	- https://stackoverflow.com/questions/10578043/how-a-compiler-identifies-that-there-is-a-checked-exception#:~:text=So%20basically%20it%20looks%20at,it%20is%20checked%20or%20unchecked.&text=All%20checked%20exceptions%20have%20a,exceptions%20extend%20RuntimeException%20or%20Error%20.
+- Suppressed Exception
+	- https://www.baeldung.com/java-suppressed-exceptions
