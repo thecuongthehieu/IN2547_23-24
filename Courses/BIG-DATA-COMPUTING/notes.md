@@ -10,4 +10,4 @@
 	- Unlike Hadoop, Spark avoids shared data to be stored in intermediate stores like Amazon S3 or HDFS by using a special data structure known as RDD (Resilient Distributed Datasets). Resilient Distributed Datasets are immutable, a partitioned collection of records that can be operated on – in parallel and allows – fault-tolerant ‘in-memory’ computations.
 	- https://spark.apache.org/docs/latest/rdd-programming-guide.html
 	- https://stackoverflow.com/questions/40732962/spark-rdd-is-partitions-always-in-ram
-	- 
+	- https://spark.apache.org/docs/latest/submitting-applications.html
