@@ -60,6 +60,43 @@
 - IP Package -> Fragments
 - ID in each package
 
+## Lectute 10 (19/03/2024)
+- Exercise 4.7
+- Routing Basic
+- Routing information = IP destination address
+- Minimum Information of each node in LAN:
+	- IP of node
+	- Mask
+	- IP of GW
+- `route -n` command
+- Config LAN 
+
+## Lecture 11 (20/03/2024)
+- Configure the interfaces with IP addresses 
+- Dijkstra vs Bellman-Ford in terms of Routing
+	- Bellman-Ford can be run in every separate node while Dijktra can not (Why?)
+- Link-State (in Dijsktra) and Distance-Vector (in Bellman-Ford)
+- Distance Vector Routing
+- Cost To Go
+- Distributed Bellman-Ford Algorithm
+- Routing Information Protocal (RIP)
+
+## Lecture 12 (21/03/2024)
+- Link State Routing
+- OSPF protocol
+- Link State Advertisement Record
+- Autonomous System (Internet)
+- Peering link between ISPs
+- Peering network
+- Neutral Access Point (NAP)
+- Border Gateway and Border Gateway Protocal
+- Advertisement Procedure in OSPF?
+- Policy-Based Routing, Path Vector
+- IP PACKET FORMAT 
+	- Version (IPV4 or IPV6)
+	- IHL (Internet Header Length)
+	- 
+
 
 ## Questions
 - How socket handle the case that one process connecting to one host:port threaded-server with 2 socket descriptors?

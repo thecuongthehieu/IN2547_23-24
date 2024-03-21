@@ -40,3 +40,14 @@
 	- https://stackoverflow.com/questions/10578043/how-a-compiler-identifies-that-there-is-a-checked-exception#:~:text=So%20basically%20it%20looks%20at,it%20is%20checked%20or%20unchecked.&text=All%20checked%20exceptions%20have%20a,exceptions%20extend%20RuntimeException%20or%20Error%20.
 - Suppressed Exception
 	- https://www.baeldung.com/java-suppressed-exceptions
+
+## Lecture 09 (18/03/2024)
+- **ABSENT (Health Insurance Appointment)**
+
+## Lecture 10 (20/03/2024)
+- Document Processing
+- Apache Lucene Analysis
+- `StringBuilder` vs `StringBuffer`
+- `hello-analyzer` codes
+
+## Lecture 11 ()

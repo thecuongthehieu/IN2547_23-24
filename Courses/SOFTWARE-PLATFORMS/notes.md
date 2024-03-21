@@ -22,3 +22,6 @@
 - GRASP describes some basic disciplines to assign responsibilities (to know and support RDD)
 - GRASP for basic patterns, and GoF for more advanced design ideas
 - Architectural Patterns
+
+## Lecture 06 (18/03/2024)
+- 

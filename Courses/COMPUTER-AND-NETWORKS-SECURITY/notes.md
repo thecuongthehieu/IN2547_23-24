@@ -41,5 +41,14 @@ on the environment variables
 ## Lecture 06 (13/03/2024)
 - `sh` is commonly symbolically linked to `bash`, `zsh`, `dash` ,...
 - `strace` and `ldd ` commands
-- Attack via Dynamic Linker (`sleep()`)
--  
+- Attack via Dynamic Linker (`sleep()
+
+## 19/03/2024
+- Seminar on AI
+- Approximation via Decision Tree
+
+## Lecture 07 (20/03/2024)
+- Attacks via Application Code
+- Shellshock
+
+## Lecture 08 ()

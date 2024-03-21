@@ -11,3 +11,13 @@
 	- https://spark.apache.org/docs/latest/rdd-programming-guide.html
 	- https://stackoverflow.com/questions/40732962/spark-rdd-is-partitions-always-in-ram
 	- https://spark.apache.org/docs/latest/submitting-applications.html
+
+	
+## Lecture 06 (18/03/2024)
+- WordCountExample
+
+## Lecture 07 (19/03/2024)
+- Homework 1 discussion
+- 2 Exercise solution
+
+## Lecture 08 ()

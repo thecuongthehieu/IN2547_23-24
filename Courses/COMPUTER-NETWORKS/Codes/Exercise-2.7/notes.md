@@ -1,0 +1,17 @@
+- Decimal to Single Precision:
+	- https://www.wikihow.com/Convert-a-Number-from-Decimal-to-IEEE-754-Floating-Point-Representation
+- C floating point precision:
+	- 0.2 could not be exactly represented
+	- https://stackoverflow.com/questions/12635537/c-floating-point-precision
+- Why 7 decimal degits?
+	- https://binary-system.base-conversion.ro/real-number-converted-from-decimal-system-to-32bit-single-precision-IEEE754-binary-floating-point.php?decimal_number_base_ten=33554431
+	- https://www.h-schmidt.net/FloatConverter/IEEE754.html
+- Why is it wrong with $$ 2^{25} - 1 $$:
+	- Rounding
+	- https://numeral-systems.com/ieee-754-converter/
+- Min and Max of Float?
+
+- Floating Point Arithmetic Operations
+	- https://www.cs.umd.edu/~meesh/411/CA-online/chapter/floating-point-arithmetic-unit/index.html
+- Refer to lab 5 of CRTP
+- My Mac M1 is 36-bit address ?
